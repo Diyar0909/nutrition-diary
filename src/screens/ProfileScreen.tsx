@@ -105,7 +105,6 @@ export default function ProfileScreen() {
         value={age}
         onChangeText={setAge}
         keyboardType="numeric"
-        placeholder="30"
       />
 
       <Text style={styles.label}>Текущий вес (кг)</Text>
@@ -114,7 +113,6 @@ export default function ProfileScreen() {
         value={weight}
         onChangeText={setWeight}
         keyboardType="numeric"
-        placeholder="75"
       />
 
       <Text style={styles.label}>Рост (см)</Text>
@@ -123,7 +121,6 @@ export default function ProfileScreen() {
         value={height}
         onChangeText={setHeight}
         keyboardType="numeric"
-        placeholder="178"
       />
 
       <Text style={styles.label}>Целевой вес (кг)</Text>
@@ -132,7 +129,6 @@ export default function ProfileScreen() {
         value={targetWeight}
         onChangeText={setTargetWeight}
         keyboardType="numeric"
-        placeholder="70"
       />
 
       <Text style={styles.label}>Цель</Text>
