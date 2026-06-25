@@ -17,6 +17,10 @@
       "package": "com.growvibe.nutritiondiary",
       "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
     },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
     "plugins": [
       [
         "expo-image-picker",
