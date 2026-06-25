@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Дневник питания",
+    "slug": "nutrition-diary",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Камера используется для фотографирования блюд и анализа КБЖУ.",
+        "NSPhotoLibraryUsageDescription": "Доступ к галерее нужен для выбора фото блюда."
+      }
+    },
+    "android": {
+      "package": "com.growvibe.nutritiondiary",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Доступ к галерее нужен для выбора фото блюда.",
+          "cameraPermission": "Камера используется для фотографирования блюд и анализа КБЖУ."
+        }
+      ]
+    ]
+  }
+}
