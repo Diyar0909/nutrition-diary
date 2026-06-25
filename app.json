@@ -21,6 +21,9 @@
       "bundler": "metro",
       "output": "static"
     },
+    "experiments": {
+      "baseUrl": "/nutrition-diary"
+    },
     "plugins": [
       [
         "expo-image-picker",
